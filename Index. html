@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shwetha's Personal Website</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #2D9CDB; /* Soft Blue */
+            color: #fff;
+            padding: 3rem 0;
+            text-align: center;
+            border-bottom: 5px solid #56CCF2; /* Lighter Blue Border */
+        }
+        
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        /* About Section */
+        section#about {
+            background-color: #fff;
+            padding: 3rem;
+            text-align: center;
+            border-radius: 8px;
+            margin: 2rem 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        section#about h2 {
+            font-size: 2.5rem;
+            color: #2D9CDB;
+            margin-bottom: 1rem;
+        }
+
+        section#about p {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: #555;
+        }
+
+        /* Skills Section */
+        section#skills {
+            background-color: #E0E0E0; /* Light Gray */
+            padding: 3rem;
+            text-align: center;
+            border-radius: 8px;
+            margin: 2rem 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        section#skills h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #27AE60; /* Green */
+        }
+
+        section#skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        section#skills li {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+            color: #333;
+        }
+
+        /* Hackathon Section */
+        section#hackathon {
+            background-color: #fff;
+            padding: 3rem;
+            text-align: center;
+            border-radius: 8px;
+            margin: 2rem 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        section#hackathon h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #9B51E0; /* Purple */
+        }
+
+        section#hackathon p {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: #555;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            border-top: 5px solid #56CCF2; /* Lighter Blue Border */
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            section#about h2,
+            section#skills h2,
+            section#hackathon h2 {
+                font-size: 2rem;
+            }
+
+            section#about p,
+            section#skills li,
+            section#hackathon p {
+                font-size: 1rem;
+            }
+
+            footer p {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Shwetha</h1>
+        <p>Student | Web Developer | Music Enthusiast</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I’m Shwetha, a student learning web development. I’m passionate about technology and love creating new things. I’m constantly exploring new areas of knowledge, especially in the field of web development. Outside of coding, I love swimming and listening to music.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>Singing</li>
+            <li>Communication</li>
+            <li>Learning New Things</li>
+        </ul>
+    </section>
+
+    <!-- Hackathon Section -->
+    <section id="hackathon">
+        <h2>Current Project</h2>
+        <p>I am currently participating in a hackathon organized by Tinker Hub. This is an exciting opportunity to apply my skills and learn from others in the field of tech!</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Shwetha. All rights reserved.</p>
+    </footer>
+</body>
+</html>
